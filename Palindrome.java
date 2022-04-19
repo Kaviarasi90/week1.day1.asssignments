@@ -4,13 +4,13 @@ public class Palindrome {
 
 	 public static void main(String[] args) {
 
-		    String str = "madam", rev = "";
+		    String str = "padam", rev = "";
 
-		    for (int i = (str.length()) - 1; i >=0; --i) {
+		    for (int i = (str.length())- 1; i >=0; --i) {
 		      rev = rev + str.charAt(i);
 		    }
 
-		    if (str.toLowerCase().equals(rev.toLowerCase())) {
+		    if (str.equals(rev)) {
 		      System.out.println(str + " is a Palindrome String.");
 		    }
 		    else {
